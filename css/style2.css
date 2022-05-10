@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: #FFFFFF;
+    min-height: 40px;
+    min-width: 60px;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    height: 850px;
+    min-height: 40px;
+    min-width: 1280px;
+}
+
+.container .left-card span {
+    color: #AA6CDB;
+}
+
+.container {
+    background-color: purple;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    height: 446px;
+    width: 1110px;
+}
+
+.container .left-card {
+    padding: 70px 0 64px 75px;
+    width: 395px;
+}
+
+.container .left-card .texto {
+    line-height: 25px;
+    opacity: 0.80;
+    width: 395px;
+}
+
+.container .left-card .dados {
+    color: #FFF;
+    display: flex;
+    margin: 75px auto 65px;
+}
+
+.container .left-card .dados-cima {
+    font-weight: 700;
+}
+
+.container .left-card .dados-baixo {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 145px;
+}
+
+.container .right-card img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 8px 8px 0;
+    margin-left: 102px;
+    height: 446px;
+    width: 540px;
+}
+
+/* .container .right-card img .sombra {
+    opacity: 20px;
+} */
+
+.attribution {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    text-decoration: none;
+}

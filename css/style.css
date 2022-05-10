@@ -1,0 +1,71 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    height: 446px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 20, 45);
+    border-radius: 10px 0px 0px 10px;
+    width: 570px;
+    color: white;
+}
+
+span {
+    color: #AA5CDB;
+}
+
+section .container {
+    margin-right: 20px;
+}
+
+section .texto {
+    color: #FFFFFF;
+    line-height: 1.5em;
+    margin-bottom: 5em;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+section ul h2 {
+    color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+section ul p {
+    font-family: "Lexend Deca", sans-serif;
+    color: #FFFFFF;
+}
+
+.imagem img {
+    min-height: 10em;
+    width: 540px;
+    min-width: 200px;
+    background: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+
+.overlay {
+    background: hsl(277deg, 100%, 50%, 0.42);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
