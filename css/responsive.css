@@ -5,12 +5,12 @@
 
     main {
         margin: 85px auto;
-        min-height: 750px;
+        height: 110vh;
     }
 
     .container {
         height: 750px;
-        width: 325px;
+        width: 375px;
         display: block;
         position: relative;
     }
@@ -19,7 +19,7 @@
         padding: 0;
         width: 325px;
         margin: 25px auto auto 25px;
-        position: relative;
+        position: absolute;
         text-align: center;
     }
 
@@ -40,6 +40,10 @@
     .container .left-card .dados {
         flex-direction: column;
         margin: 40px auto auto -8px;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        width: 272px;
     }
 
     .container .left-card .dados .dados-cima {
@@ -50,17 +54,24 @@
         font-family: "Inter", sans-serif;
         letter-spacing: 0.5px;
         margin: 10px 0 45px 1px;
+        width: auto;
     }
 
-    .container img {
-        border-radius: 5px 5px 0 0;
+    .container .right-card img {
+        border-radius: 5px 5px 0px 0;
         height: 240px;
-        width: 325px;
-        margin: 0;
+        width: 375px;
+        margin: -30px;
+        position: absolute;
+    }
+
+    .container img::after {
+        height: 240px;
+        width: 375px;
     }
 
     .attribution {
-        display: none;
         /* Temporário */
+        display: none;
     }
 }
