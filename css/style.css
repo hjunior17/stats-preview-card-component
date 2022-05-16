@@ -87,9 +87,8 @@ main {
 }
 
 .attribution {
-    /* position: absolute; */
     font-family: Arial, sans-serif;
-    margin-top: -50px;
+    margin-top: -120px;
     width: 100%;
     display: flex;
     justify-content: center;
